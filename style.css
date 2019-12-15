@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul,li{
+	list-style: none;
+	text-align: center;
+}
+
+.moving{
+	color: red;
+	position: absolute;
+	left:900px;
+}
+.imp{
+	background: #cccc;
+	height: 20px;
+	overflow: hidden;
+}
+.impbox{
+	width: 900px;
+	height: 20px;
+	border: 0px solid;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+}
+.box{
+	width: 1200px;
+	height: 382px;
+	border: 0px solid;
+	margin: 10px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:    ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 3px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	font-size: 20px;
+	left: 30px;
+	color: white;
+}
+#right{
+	font-size: 20px;
+	right: 30px;
+	color: white;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	background:#ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 15px;
+	display: inline-block;
+	font-size: 10px;
+
+}
+.nav .active{
+	background: red;
+	color: white;
+}
